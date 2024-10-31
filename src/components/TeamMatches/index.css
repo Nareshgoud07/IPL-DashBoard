@@ -1,0 +1,30 @@
+.bg-card-team-matches {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.team-matches-image {
+  width: 95%;
+  margin-top: 30px;
+}
+
+.latest-matches-heading {
+  font-family: Bree Serif;
+  font-size: 20px;
+  color: #ffffff;
+  padding-left: 36px;
+  align-self: flex-start;
+}
+
+.unordered-list-match-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  width: 100%;
+  list-style-type: none;
+}

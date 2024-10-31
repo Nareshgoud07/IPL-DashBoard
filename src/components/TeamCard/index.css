@@ -1,0 +1,28 @@
+.list-team-card {
+  width: 40%;
+  padding: 30px;
+  margin: 10px;
+  border: 2px solid #ffffff;
+  background-color: #475569;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.team-image {
+  height: 80px;
+  width: 80px;
+}
+
+.team-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Bree Serif;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.list-card {
+}

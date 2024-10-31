@@ -1,0 +1,59 @@
+.bg-container-latest-match {
+  background-color: #000000;
+  border-radius: 15px;
+  color: #ffffff;
+  font-family: Bree Serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: 95%;
+}
+
+.latest-match-first-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-section-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.competing-team-image {
+  height: 100px;
+  width: 100px;
+  margin-right: 30px;
+}
+
+.line {
+  border-color: #ffffff33;
+  color: #ffffff33;
+  background-color: #ffffff33;
+}
+
+@media (min-width: 768px) {
+  .bg-container-latest-match {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .latest-match-first-section {
+    width: 60%;
+  }
+  .line {
+    border-width: 0px;
+  }
+  .latest-match-last-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .competing-team-image {
+    height: 200px;
+    width: 200px;
+  }
+}
